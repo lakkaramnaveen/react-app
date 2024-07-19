@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     // useEffect hook to fetch data on component mount
-    Axios.get("http://localhost:8000") // Make a GET request to the specified URL
+    Axios.get("http://18.118.196.153:8000/") // Make a GET request to the specified URL
       .then((res) => setData(res.data)); // Set the fetched data to state
   }, []); // Empty dependency array to run the effect only once
 
